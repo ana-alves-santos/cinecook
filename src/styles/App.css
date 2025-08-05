@@ -1,0 +1,50 @@
+
+#root {
+  max-width: 1200px;   
+  width: 90vw;         
+  margin: 2rem auto;   
+  padding: 2rem 3rem;  
+  background-color: var(--color-bg-light);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: light) {
+  #root {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-light);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.logo {
+  height: 5.5rem;
+  margin-bottom: 1.5rem;
+  transition: filter 0.3s ease;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 8px var(--color-primary));
+}
+
+.card {
+  width: 100%;
+  background: var(--color-bg-light);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  color: var(--color-text-light);
+  transition: background 0.3s ease;
+}
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: #222;
+    color: var(--color-text-dark);
+  }
+}
+
+.read-the-docs {
+  font-size: 0.875rem;
+  color: #888;
+  margin-top: 1rem;
+}

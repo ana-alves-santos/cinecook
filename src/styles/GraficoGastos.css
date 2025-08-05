@@ -1,0 +1,27 @@
+
+.grafico-container {
+  max-width: 450px;
+  margin: 2rem auto;
+  background-color: #1e1e2f;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 20px rgba(30, 30, 47, 0.8);
+  color: #f0a500;
+  font-family: var(--font-sans);
+  text-align: center;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+@media (prefers-color-scheme: light) {
+  .grafico-container {
+    background-color: #f0f0f5;
+    color: #b86b00;
+  }
+}
+
+.grafico-container h3 {
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  font-size: 1.75rem;
+}

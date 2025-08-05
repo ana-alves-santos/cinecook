@@ -2,47 +2,50 @@ import React, { useState } from 'react'
 import '../styles/Form.css'
 
 export default function Form({ categorias, onAdicionar }) {
-  const [descricao, setDescricao] = useState('')
+  const [desc, setDesc] = useState('')
   const [valor, setValor] = useState('')
   const [categoria, setCategoria] = useState(categorias[0])
 
-  const enviarFormulario = (e) => {
+  function enviar(e) {
     e.preventDefault()
-    if (!descricao || !valor) {
-      alert('Preenche direitinho aí, por favor 😅')
+
+    if (!desc || !valor) {
+      alert('Ei, preenche tudo certinho, por favor! ')
       return
     }
 
-    const novoGasto = {
+    const gasto = {
       id: Date.now(),
-      descricao,
+      descricao: desc,
       valor: parseFloat(valor),
       categoria,
     }
 
-    onAdicionar(novoGasto)
-    setDescricao('')
+    onAdicionar(gasto)
+
+    // Limpando os campos depois de anotar
+    setDesc('')
     setValor('')
     setCategoria(categorias[0])
   }
 
   return (
-    <form className="form" onSubmit={enviarFormulario}>
+    <form className="form" onSubmit={enviar}>
       <input
         type="text"
-        placeholder="Descrição"
-        value={descricao}
-        onChange={(e) => setDescricao(e.target.value)}
+        placeholder="O que você gastou?"
+        value={desc}
+        onChange={e => setDesc(e.target.value)}
       />
       <input
         type="number"
-        placeholder="Valor"
+        placeholder="Quanto custou?"
         value={valor}
-        onChange={(e) => setValor(e.target.value)}
+        onChange={e => setValor(e.target.value)}
         step="0.01"
       />
-      <select value={categoria} onChange={(e) => setCategoria(e.target.value)}>
-        {categorias.map((cat) => (
+      <select value={categoria} onChange={e => setCategoria(e.target.value)}>
+        {categorias.map(cat => (
           <option key={cat} value={cat}>
             {cat}
           </option>

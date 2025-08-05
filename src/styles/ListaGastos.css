@@ -1,34 +1,51 @@
-
 .expense-table {
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  border-radius: 12px;
+  border-collapse: collapse;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  margin-top: 1.5rem;
-  background-color: #292a3e;
+  background-color: rgba(0, 0, 0, 0.3); /* fundo escuro transparente */
+  backdrop-filter: blur(6px); /* efeito vidro fosco */
   color: #eee;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-.expense-table th,
-.expense-table td {
-  padding: 1rem 1.25rem;
-  text-align: center;
-}
 
 .expense-table th {
-  background-color: #3a3b5a;
-  font-weight: 700;
-  font-size: 1rem;
-  color: #f0a500;
+  background: #3a3b5a;
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: #f0a500; /* amarelo vibrante */
+  font-weight: bold;
 }
+
+
+.expense-table td {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
 
 .expense-table tbody tr:nth-child(even) {
-  background-color: #242438;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
+
 .expense-table tbody tr:hover {
-  background-color: #40406f;
+  background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 0.3s ease;
+}
+
+
+.expense-table button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+  color: #ff6b6b; 
+}
+
+.expense-table button:hover {
+  color: #ff3b3b; 
 }

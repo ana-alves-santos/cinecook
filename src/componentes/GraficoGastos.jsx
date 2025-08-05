@@ -6,12 +6,14 @@ import '../styles/GraficoGastos.css'
 ChartJS.register(ArcElement, Tooltip, Legend)
 
 export default function GraficoGastos({ gastos = [], categorias = [] }) {
+  // Soma o total por categoria
   const valoresPorCategoria = categorias.map((cat) =>
     gastos
       .filter((g) => g.categoria === cat)
       .reduce((acc, g) => acc + (g.valor || 0), 0)
   )
 
+  // Dados para o gráfico
   const dados = {
     labels: categorias,
     datasets: [

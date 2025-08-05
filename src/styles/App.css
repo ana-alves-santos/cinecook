@@ -1,50 +1,82 @@
-
-#root {
-  max-width: 1200px;   
-  width: 90vw;         
-  margin: 2rem auto;   
-  padding: 2rem 3rem;  
-  background-color: var(--color-bg-light);
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+:root {
+  --color-primary: #f0a5ff;
+  --color-success: #a5d6a7;
+  --color-success-hover: #81c784;
+  --color-bg-glass: rgba(255, 255, 255, 0.05);
 }
 
-@media (prefers-color-scheme: light) {
-  #root {
-    background-color: var(--color-bg-light);
-    color: var(--color-text-light);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  }
+
+#root, .app-container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  margin: 0;
+  background: linear-gradient(135deg, #2e2e48, #1a1a2e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.logo {
-  height: 5.5rem;
-  margin-bottom: 1.5rem;
-  transition: filter 0.3s ease;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 8px var(--color-primary));
+
+.titulo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px var(--color-primary);
 }
 
-.card {
+
+.subtitulo {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  text-align: left;
   width: 100%;
-  background: var(--color-bg-light);
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
-  color: var(--color-text-light);
-  transition: background 0.3s ease;
-}
-@media (prefers-color-scheme: dark) {
-  .card {
-    background: #222;
-    color: var(--color-text-dark);
-  }
+  max-width: 1400px;
+  padding-left: 10px;
 }
 
-.read-the-docs {
-  font-size: 0.875rem;
-  color: #888;
+.total {
   margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-success);
+  text-align: left;
+  padding-left: 10px;
+}
+
+
+.dashboard {
+  width: 90%;
+  max-width: 1400px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2rem auto;
+  flex-wrap: wrap; 
+}
+
+
+.dashboard-esquerda {
+  flex: 2;
+  min-width: 300px;
+}
+
+
+.dashboard-direita {
+  flex: 1;
+  min-width: 280px;
+}
+
+.card,
+.form,
+.grafico-container,
+.expense-table {
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }

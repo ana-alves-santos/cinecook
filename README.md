@@ -1,6 +1,9 @@
-# 💸 Expense Tracker - React + Vite
+# 💸 Cost Control - React + Vite
 
 A expense tracker web app built with React and Vite to practice React hooks and localStorage persistence.
+
+<img width="1339" height="568" alt="image" src="https://github.com/user-attachments/assets/0ca7808f-d5de-4b1a-bd05-6890b4844988" />
+
 
 
 ## 🚀 Features

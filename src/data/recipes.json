@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "title": "Ratatouille do Remy",
+    "movie": "Ratatouille",
+    "description": "O clássico prato francês feito pelo ratinho chef Remy. Colorido, saudável e delicioso.",
+    "image": "/src/images/ratatouille.jpg",
+    "preparation": [
+      "Corte os legumes em fatias finas.",
+      "Refogue cebola e alho em azeite.",
+      "Arrume as fatias alternadas em uma travessa.",
+      "Tempere com ervas, sal e azeite.",
+      "Leve ao forno por 45 minutos até dourar."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Butterbeer",
+    "movie": "Harry Potter",
+    "description": "A famosa cerveja amanteigada de Hogsmeade, perfeita para os fãs da saga.",
+    "image": "/src/images/butterbeer.jpg",
+    "preparation": [
+      "Misture manteiga derretida, açúcar mascavo e canela.",
+      "Adicione água quente e mexa até dissolver.",
+      "Acrescente creme de leite batido por cima.",
+      "Sirva quente e aproveite."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Lasanha do Garfield",
+    "movie": "Garfield",
+    "description": "Uma lasanha caseira recheada com queijo e molho de tomate, aprovada pelo gato mais preguiçoso do mundo.",
+    "image": "/src/images/garfield-lasagna.jpg",
+    "preparation": [
+      "Prepare o molho de tomate caseiro.",
+      "Cozinhe a massa da lasanha até ficar al dente.",
+      "Monte camadas alternadas de massa, molho e queijo.",
+      "Finalize com bastante queijo por cima.",
+      "Leve ao forno por 40 minutos até gratinar."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Bolo de Chocolate da Matilda",
+    "movie": "Matilda",
+    "description": "O bolo intenso e irresistível que deixou todos com água na boca no filme.",
+    "image": "/src/images/matilda-cake.jpg",
+    "preparation": [
+      "Misture farinha, açúcar, cacau em pó e fermento.",
+      "Adicione ovos, leite e óleo, misturando bem.",
+      "Despeje a massa em forma untada.",
+      "Asse por 35 minutos a 180°C.",
+      "Cubra com cobertura de chocolate após esfriar."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Macarrão ao Molho de Dama e Vagabundo",
+    "movie": "A Dama e o Vagabundo",
+    "description": "Um prato romântico de espaguete com almôndegas, perfeito para dividir.",
+    "image": "/src/images/lady-tramp-pasta.jpg",
+    "preparation": [
+      "Cozinhe o espaguete até ficar al dente.",
+      "Prepare almôndegas temperadas e cozinhe no molho de tomate.",
+      "Misture o espaguete com o molho e almôndegas.",
+      "Sirva com queijo ralado por cima.",
+      "Aproveite com quem você ama."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sopa de Abóbora da Toca",
+    "movie": "O Senhor dos Anéis",
+    "description": "Uma sopa cremosa e aconchegante como as servidas na Toca dos Hobbits.",
+    "image": "/src/images/hobbit-pumpkin-soup.jpg",
+    "preparation": [
+      "Descasque e corte a abóbora em cubos.",
+      "Refogue cebola e alho na manteiga.",
+      "Adicione a abóbora e cubra com caldo de legumes.",
+      "Cozinhe até amolecer e bata no liquidificador.",
+      "Finalize com creme de leite e sirva quente."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Rosquinha do Homer",
+    "movie": "Os Simpsons",
+    "description": "A rosquinha doce e icônica que o Homer não resiste, com cobertura rosa e granulados coloridos.",
+    "image": "/src/images/homer-donut.jpg",
+    "preparation": [
+      "Misture farinha, açúcar, fermento e ovos.",
+      "Frite as rosquinhas até dourar.",
+      "Prepare a cobertura rosa com açúcar de confeiteiro e corante.",
+      "Banhe as rosquinhas na cobertura e polvilhe granulados.",
+      "Deixe secar e sirva."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Pizza das Tartarugas Ninja",
+    "movie": "As Tartarugas Ninja",
+    "description": "A pizza preferida das quatro tartarugas heróis, com muito queijo e cobertura caprichada.",
+    "image": "/src/images/ninja-pizza.jpg",
+    "preparation": [
+      "Prepare a massa de pizza e deixe crescer.",
+      "Abra a massa e espalhe molho de tomate.",
+      "Cubra com queijo e ingredientes de sua escolha.",
+      "Asse em forno pré-aquecido até o queijo derreter.",
+      "Corte em fatias generosas e sirva."
+    ]
+  }
+]

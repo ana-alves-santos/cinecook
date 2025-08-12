@@ -1,81 +1,11 @@
-
-:root {
-  --color-primary: #f0a500;
-  --color-success: #4caf50;
-  --color-success-hover: #388e3c;
-  --font-sans: 'Segoe UI', sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    background-color: var(--color-bg-dark);
-    color: var(--color-text-dark);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    background-color: var(--color-bg-light);
-    color: var(--color-text-light);
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-  background-color: var(--color-bg-light);
-}
-
-
-a {
-  color: var(--color-primary);
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-a:hover {
-  color: var(--color-primary-hover);
-}
-
-
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 2rem 0 1rem;
-}
-h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: 2rem;
-}
-
-
-button {
-  font-family: var(--font-sans);
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  padding: 0.75em 1.5em;
-  background-color: var(--color-success);
-  color: white;
-  box-shadow: 0 4px 6px rgb(76 175 80 / 0.4);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-button:hover {
-  background-color: var(--color-success-hover);
-  box-shadow: 0 6px 10px rgb(56 142 60 / 0.6);
-}
-button:focus-visible {
-  outline: 3px solid var(--color-accent);
-  outline-offset: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f1624; 
+  color: #eee; 
 }

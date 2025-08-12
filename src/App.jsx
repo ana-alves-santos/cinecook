@@ -1,52 +1,44 @@
-import React, { useState, useEffect } from 'react'
-import Form from './componentes/Form'
-import ListaGastos from './componentes/ListaGastos'
-import GraficoGastos from './componentes/GraficoGastos'
-import './styles/App.css'
+import React, { useState } from "react";
+import viteLogo from "/vite.svg";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
 
-const categorias = ['Alimentação', 'Transporte', 'Lazer', 'Outros']
+function App() {
+  const [count, setCount] = useState(0);
 
-export default function App() {
-
-  const [gastos, setGastos] = useState(() => {
-    const salvo = localStorage.getItem('gastos')
-    return salvo ? JSON.parse(salvo) : []
-  })
-
-  // Adiciona gasto novo
-  const adicionarGasto = gasto => {
-    setGastos(antigos => [...antigos, gasto])
+  function increment() {
+    setCount(count + 1);
   }
-
-  // Apaga um gasto pelo id
-  const apagarGasto = id => {
-    setGastos(antigos => antigos.filter(g => g.id !== id))
-  }
-
-  // Salva a lista toda no localStorage quando mudar
-  useEffect(() => {
-    localStorage.setItem('gastos', JSON.stringify(gastos))
-  }, [gastos])
-
-  const total = gastos.reduce((soma, g) => soma + g.valor, 0)
 
   return (
-    <div className="app-container">
-      <h1 className="titulo">💸 Controle de Gastos</h1>
+    <div className="App">
+      <header className="header-logos">
+        <a href="https://vite.dev" target="_blank" rel="noreferrer">
+          <img src={viteLogo} className="logo" alt="Logo do Vite" />
+        </a>
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
+          <img src={reactLogo} className="logo react" alt="Logo do React" />
+        </a>
+      </header>
 
-      <Form categorias={categorias} onAdicionar={adicionarGasto} />
+      <main className="main-content">
+        <h1>Vite + React</h1>
 
-      <div className="dashboard">
-        <div className="dashboard-esquerda">
-          <h2 className="subtitulo">Gastos adicionados</h2>
-          <ListaGastos gastos={gastos} onApagar={apagarGasto} />
-          <h3 className="total">Total: R$ {total.toFixed(2)}</h3>
+        <div className="card">
+          <button onClick={increment}>
+            count is {count}
+          </button>
+          <p>
+            Edite o arquivo <code>src/App.jsx</code> e salve para testar HMR
+          </p>
         </div>
 
-        <div className="dashboard-direita">
-          <GraficoGastos gastos={gastos} categorias={categorias} />
-        </div>
-      </div>
+        <p className="read-the-docs">
+          Clique nos logos do Vite e React para saber mais
+        </p>
+      </main>
     </div>
-  )
+  );
 }
+
+export default App;

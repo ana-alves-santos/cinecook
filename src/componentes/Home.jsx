@@ -11,7 +11,7 @@ export default function Home() {
       <div className="content-wrapper">
         <section className="intro">
           <h1>Sabores que contam histórias</h1>
-          <p>Receitas criativas inspiradas nos seus filmes e séries favoritos.</p>
+          <p>Receitas inspiradas nos seus filmes favoritos.</p>
           <button className="btn-primary" onClick={() => alert('Vamos cozinhar!')}>
             Vamos cozinhar
           </button>
@@ -20,8 +20,7 @@ export default function Home() {
         <section className="about-us">
           <h2>Quem somos</h2>
           <p>
-            Misturamos cinema e culinária para levar até você pratos que  
-            não são só gostosos, mas que trazem à mesa momentos inesquecíveis da tela.
+          Unimos cinema e culinária para compartilhar receitas que não são apenas deliciosas, mas também trazem para a sua mesa momentos inesquecíveis das telonas.
           </p>
         </section>
 
@@ -38,7 +37,7 @@ export default function Home() {
         </section>
 
         <section className="recipes-section">
-          <h2>Nosso cardápio</h2>
+          <h2>Receitas</h2>
           <div className="recipes-grid">
             {recipes.map((item) => (
               <div key={item.id} className="recipe-card">

@@ -10,11 +10,12 @@ export default function RecipeDetails() {
 
   const id = Number(params.id);
 
-  // Procura a receit
+  // Procura a receita
   const recipe = recipes.find(function (r) {
     return r.id === id;
   });
 
+// mensagem de erro 
   if (!recipe) {
     return (
       <main className="recipe-details">
@@ -24,6 +25,7 @@ export default function RecipeDetails() {
     );
   }
 
+  //
   return (
     <main className="recipe-details">
       <h1>{recipe.title}</h1>
@@ -33,7 +35,7 @@ export default function RecipeDetails() {
         style={{ width: "100%", borderRadius: 8 }}
       />
       <p>{recipe.description}</p>
-      <p><b>Filme/Série:</b> {recipe.movie}</p>
+      <p><b>Filme:</b> {recipe.movie}</p>
 
       <section className="preparation">
         <h3>Modo de Preparo</h3>

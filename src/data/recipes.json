@@ -17,7 +17,7 @@
     "id": 2,
     "title": "Butterbeer",
     "movie": "Harry Potter",
-    "description": "A famosa cerveja amanteigada de Hogsmeade, perfeita para os fãs da saga.",
+    "description": "A famosa cerveja amanteigada de Hogsmeade.",
     "image": "/src/images/butterbeer.jpg",
     "preparation": [
       "Misture manteiga derretida, açúcar mascavo e canela.",
@@ -44,7 +44,7 @@
     "id": 4,
     "title": "Bolo de Chocolate da Matilda",
     "movie": "Matilda",
-    "description": "O bolo intenso e irresistível que deixou todos com água na boca no filme.",
+    "description": "O bolo irresistível que deixou todos com água na boca no filme.",
     "image": "/src/images/matilda-cake.jpg",
     "preparation": [
       "Misture farinha, açúcar, cacau em pó e fermento.",
@@ -65,7 +65,7 @@
       "Prepare almôndegas temperadas e cozinhe no molho de tomate.",
       "Misture o espaguete com o molho e almôndegas.",
       "Sirva com queijo ralado por cima.",
-      "Aproveite com quem você ama."
+      "Aproveite."
     ]
   },
   {

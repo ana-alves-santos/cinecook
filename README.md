@@ -5,7 +5,8 @@ Project built with **React** and **Vite**, created as part of the **#7DaysOfCode
 
 
 
-https://github.com/user-attachments/assets/92bb2028-a596-4101-98e4-003c2637669f
+https://github.com/user-attachments/assets/240f0483-ed89-479c-95b9-dac65cf2a376
+
 
 
 

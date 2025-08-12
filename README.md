@@ -28,8 +28,6 @@ CineCook is a website showcasing creative recipes inspired by popular movies
 - Smooth navigation to detailed recipe pages  
 - A visually appealing dark theme with subtle animations  
 
-This project was a great way to practice React basics
-
 
 ## 📚 Technologies Used
 

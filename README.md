@@ -1,4 +1,4 @@
-# 🍿🎥 CineCook - Movies Inspired by Recipes
+# 🍿🎥 CineCook
 
 Project built with **React** and **Vite**, created as part of the **#7DaysOfCode** challenge.
 

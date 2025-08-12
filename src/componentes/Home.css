@@ -11,7 +11,6 @@
   z-index: 1;
 }
 
-/* Laterais azuis suaves translúcidas */
 .home-container::before,
 .home-container::after {
   content: "";
@@ -33,7 +32,6 @@
   background: linear-gradient(to left, rgba(100, 149, 237, 0.4), transparent);
 }
 
-/* resto do seu CSS continua igual */
 .content-wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -163,7 +161,7 @@
   color: white;
 }
 
-/* Faixa de imagens com movimento contínuo corrigido */
+
 .movies-preview {
   overflow: hidden;
   margin: 3rem auto 4rem;

@@ -2,9 +2,11 @@
 
 **CineCook** is first project built with **React** and **Vite**, created as part of the **#7DaysOfCode** challenge.
 
-<img width="1343" height="572" alt="image" src="https://github.com/user-attachments/assets/e167bfc0-c7c0-4047-98c0-2c56eae43d0f" />
 
-<img width="1335" height="572" alt="image" src="https://github.com/user-attachments/assets/17a7942a-8dab-41cd-b77b-092f30617d25" />
+
+
+https://github.com/user-attachments/assets/92bb2028-a596-4101-98e4-003c2637669f
+
 
 
 ## 🚀 Project was made to learn

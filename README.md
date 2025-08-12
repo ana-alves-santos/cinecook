@@ -22,7 +22,9 @@ https://github.com/user-attachments/assets/92bb2028-a596-4101-98e4-003c2637669f
 
 ## 🛠️ About the Project
 
-CineCook is a website showcasing creative recipes inspired by popular movies
+The goal of the project was to create a an website featuring recipes inspired by movies.
+
+The site features:
 
 - A home page with an introduction and recipe cards  
 - Smooth navigation to detailed recipe pages  

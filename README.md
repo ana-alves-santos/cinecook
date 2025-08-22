@@ -41,18 +41,18 @@ The site features:
 
 # 💻 How to Run 
 
- Clone the repository
+- Clone the repository
 git clone https://github.com/ana-alves-santos/cinecook.git
 
-Go to the project folder
+- Go to the project folder
 cd cost
 
-Install the dependencies (npm or yarn)
+- Install the dependencies (npm or yarn)
 npm install
  or
 yarn
 
-Start the development server
+- Start the development server
 npm run dev
 or
 yarn dev

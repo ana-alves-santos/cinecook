@@ -39,18 +39,21 @@ The site features:
 - CSS (Flexbox, Grid, Animations)  
 
 
-
-## 🎯 Next Steps
-
-- Add search and filtering for recipes  
-- Connect to a backend or external API  
-- Implement user authentication for saving favorites  
-
-
 # 💻 How to Run 
 
+ Clone the repository
+git clone https://github.com/ana-alves-santos/cost.git
 
-1. Clone this repository:
-   ```bash
-   
-   git clone https://github.com/ana-alves-santos/cost.git
+Go to the project folder
+cd cost
+
+Install the dependencies (npm or yarn)
+npm install
+ or
+yarn
+
+Start the development server
+npm run dev
+or
+yarn dev
+

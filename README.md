@@ -42,7 +42,7 @@ The site features:
 # 💻 How to Run 
 
  Clone the repository
-git clone https://github.com/ana-alves-santos/cost.git
+git clone https://github.com/ana-alves-santos/cinecook.git
 
 Go to the project folder
 cd cost

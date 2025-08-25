@@ -2,6 +2,11 @@
 
 Project built with **React** and **Vite**, created as part of the **#7DaysOfCode** challenge.
 
+The site features:
+
+- A home page with an introduction and recipe cards  
+- Smooth navigation to detailed recipe pages  
+- A visually appealing dark theme with subtle animations  
 
 
 
